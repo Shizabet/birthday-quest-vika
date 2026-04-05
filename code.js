@@ -202,7 +202,7 @@ const questions = [
                     const statusSpan = document.querySelector('.hack-status-text');
                     if (statusSpan) statusSpan.innerHTML = `[ HACK_STATUS: ${statusTexts[statusIndex]} ]`;
                     
-                    const progressPercent = (currentIndex / questions.length) * 50;
+                    const progressPercent = (currentIndex / questions.length) * 100;
                     const progressSpan = document.querySelector('.hack-progress');
                     if (progressSpan) progressSpan.innerHTML = `PROGRESS: ${Math.floor(progressPercent)}%`;
                     
